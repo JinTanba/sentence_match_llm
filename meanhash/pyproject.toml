@@ -1,0 +1,16 @@
+[project]
+name = "meanhash"
+version = "0.1.0"
+description = "Semantic ID generation using Golay codes"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi",
+    "pydantic",
+    "uvicorn",
+    "numpy",
+    "sentence-transformers",
+    "httpx",
+    "mcp",
+    "web3>=6.0.0",
+    "eth-account>=0.8.0",
+]

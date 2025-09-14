@@ -3,4 +3,11 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
+# Sepolia testnet configuration
+[rpc_endpoints]
+sepolia = "https://eth-sepolia.g.alchemy.com/v2/xCvVMlO5hVjJ6_w5uJ4EQjSZ0RKiI7ym"
+
+[etherscan]
+sepolia = { key = "" }
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
